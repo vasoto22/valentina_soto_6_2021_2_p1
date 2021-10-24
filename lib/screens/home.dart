@@ -105,7 +105,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               Notice(category: _business)));
                 }),
                 ListTile(
-                leading: Icon(Icons.emoji_nature),
+                leading: Icon(Icons.attractions),
                 title: Text('Entertainment'),
                 onTap: () {
                   Navigator.push(
@@ -115,7 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               Notice(category: _entertainment)));
                 }),
                 ListTile(
-                leading: Icon(Icons.people),
+                leading: Icon(Icons.emoji_people),
                 title: Text('Hatke'),
                 onTap: () {
                   Navigator.push(
@@ -125,7 +125,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               Notice(category: _hatke)));
                 }),
                 ListTile(
-                leading: Icon(Icons.handyman),
+                leading: Icon(Icons.miscellaneous_services_rounded),
                 title: Text('Miscellaneous'),
                 onTap: () {
                   Navigator.push(
@@ -145,7 +145,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               Notice(category: _national)));
                 }),
                 ListTile(
-                leading: Icon(Icons.people),
+                leading: Icon(Icons.gavel),
                 title: Text('Politics'),
                 onTap: () {
                   Navigator.push(
@@ -185,7 +185,7 @@ class _HomeScreenState extends State<HomeScreen> {
                               Notice(category: _startup)));
                 }),
                 ListTile(
-                leading: Icon(Icons.cell_wifi),
+                leading: Icon(Icons.settings_input_antenna),
                 title: Text('Tecnology'),
                 onTap: () {
                   Navigator.push(
