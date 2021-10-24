@@ -24,6 +24,7 @@ class _noticeState extends State<notice> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.indigo[300],
           title: Text('Noticias'),
         ),
         body: Center(child: _getContent()));

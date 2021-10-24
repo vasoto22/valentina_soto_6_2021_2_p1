@@ -28,6 +28,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.indigo[300],
         title: Text('Notice'),
       ),
       body: _getBody(),
@@ -42,19 +43,13 @@ class _HomeScreenState extends State<HomeScreen> {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Image(
-            image: AssetImage('logo.png'),
-            fit: BoxFit.cover,
-            height: 300,
-            width: 300,
-          ),
           SizedBox(
             height: 30,
           ),
           Center(
             child: Text(
-              'Welcome to the news session',
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              'Welcome to the news section, for more information display the menu and choose the topic of your preference',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.normal),
             ),
           ),
         ],
@@ -69,10 +64,6 @@ class _HomeScreenState extends State<HomeScreen> {
         child: ListView(
           padding: EdgeInsets.zero,
           children: <Widget>[
-            DrawerHeader(
-                child: Image(
-              image: AssetImage('logo.png'),
-            )),
             ListTile(
               leading: Icon(Icons.explore),
               title: Text('All'),

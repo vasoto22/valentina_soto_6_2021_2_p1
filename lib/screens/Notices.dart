@@ -35,6 +35,7 @@ class _NoticeState extends State<Notice> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          backgroundColor: Colors.indigo[300],
           title: Text(widget.category),
           actions: <Widget>[
             _isFilter
