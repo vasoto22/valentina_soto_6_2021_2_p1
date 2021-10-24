@@ -29,7 +29,7 @@ class data_model {
     title = json['title'];
     url = json['url'];
   }
-
+/*
   Map<String, dynamic> toJson() {
     final Map<String, dynamic> body = new Map<String, dynamic>();
     body['author'] = this.author;
@@ -41,5 +41,5 @@ class data_model {
     body['title'] = this.title;
     body['url'] = this.url;
     return body;
-  }
+  }*/
 }
